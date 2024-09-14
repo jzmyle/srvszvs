@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.title {
+    font-size: 48px;
+    color: #80ff80;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #80ff80;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #80ff80;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

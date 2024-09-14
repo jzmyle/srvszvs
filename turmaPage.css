@@ -1,0 +1,90 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    color: #B6FF00;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #B6FF00;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.scoreboard {
+    margin-top: 20px;
+}
+
+.actions {
+    margin-top: 40px;
+}
+
+.action-btn {
+    background-color: #282828;
+    color: #B6FF00;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.action-btn:hover {
+    background-color: #8AC400;
+}
+
+.notas-section {
+    margin-top: 50px;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#listaNotas {
+    margin-top: 20px;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+.delete-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}

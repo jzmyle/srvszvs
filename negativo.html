@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Pontos Negativos</title>
+    <link rel="stylesheet" href="../css/negativo.css">
+</head>
+<body>
+    <header>
+        <div class="user-profile" id="userProfile">
+            <img src="../img/perfil.png" alt="Perfil" class="profile-pic">
+            <p id="userName">Usuário</p>
+            <p id="userRole">Professor</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Adicionar Pontos Negativos</h1>
+        <div class="tasks">
+            <button class="task-btn" onclick="adicionarPontos(-5)">Desrespeito -5</button>
+            <button class="task-btn" onclick="adicionarPontos(-10)">Tarefa Incompleta -10</button>
+            <button class="task-btn" onclick="adicionarPontos(-15)">Falta de Atenção -15</button>
+        </div>
+    </main>
+
+    <script src="../js/negativo.js"></script>
+</body>
+</html>

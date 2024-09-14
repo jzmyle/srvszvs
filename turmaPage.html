@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página da Turma</title>
+    <link rel="stylesheet" href="../css/turmaPage.css">
+</head>
+<body>
+    <header>
+        <div class="user-profile" id="userProfile">
+            <img src="../img/perfil.png" alt="Perfil" class="profile-pic">
+            <p id="userName">Usuário</p>
+            <p id="userRole">Professor</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Turma 1A</h1>
+        <div class="scoreboard">
+            <h2>Pontos Acumulados: <span id="totalPontos">0</span></h2>
+        </div>
+        <div class="actions">
+            <button class="action-btn" onclick="window.location.href='positivo.html'">Positivo</button>
+            <button class="action-btn" onclick="window.location.href='negativo.html'">Negativo</button>
+        </div>
+
+        <div class="notas-section">
+            <h3>Notas da Turma:</h3>
+            <textarea id="notaTexto" placeholder="Escreva sua nota aqui..."></textarea>
+            <button class="action-btn" onclick="salvarNota()">Salvar Nota</button>
+
+            <div id="listaNotas">
+                <!-- As notas serão carregadas aqui e terão a opção de apagá-las -->
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/turmaPage.js"></script>
+</body>
+</html>
